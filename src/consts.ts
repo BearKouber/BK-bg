@@ -11,6 +11,6 @@ export const GITHUB_CONFIG = {
 	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'BearKouber',
 	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || 'BK-bg',
 	BRANCH: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main',
-	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '-',
+	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '5287078',
 	ENCRYPT_KEY: process.env.NEXT_PUBLIC_GITHUB_ENCRYPT_KEY || 'wudishiduomejimo',
 } as const
